@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrraper">
+            <div class="button-container">
+                <button class="record-btn">녹화</button>
+                <button class="stop-btn">중지</button>
+                <button class="play-btn">녹화보기</button>
+                <a class="download-btn">다운로드</a>
+            </div>
+            <div class="video-container">
+                <div class="video-item">
+                    <h2>미리보기</h2>
+                    <video autoplay muted id = "preview"></video>
+                </div>
+                <div class="video-item">
+                    <h2>미리보기</h2>
+                    <video id = "recording"></video>
+                </div>
+            </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
